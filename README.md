@@ -11,7 +11,7 @@ Example:
 	<script>
 		$('h1:hasRawText'); // returns first header (bar is raw text node)
 		
-		$('h1').rawTextChildren().wrap('<span class="raw"></span>); // will wrap the text "bar" in a span with CSS class "raw" assigned.
+		$('h1').rawTextChildren().wrap('<span class="raw"></span>'); // will wrap the text "bar" in a span with CSS class "raw" assigned.
 	</script>
 <div class="liquid endhighlight"></div>
 
